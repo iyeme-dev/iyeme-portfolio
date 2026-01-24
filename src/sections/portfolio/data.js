@@ -7,6 +7,8 @@ import Image6 from "../../assets/project6.jpg";
 import Image7 from "../../assets/project7.jpg";
 import Image8 from "../../assets/project8.jpg";
 import Image9 from "../../assets/project9.jpg";
+import Image10 from "../../assets/project10.jpg";
+import Image11 from "../../assets/project11.jpg";
 
 const data = [
   {
@@ -81,6 +83,16 @@ const data = [
     demo: "https://blog-app-9h70.onrender.com/",
     github: "https://github.com/iyeme-dev/blog-app",
   },
+  {
+    id: 8,
+    category: "Django",
+    image: Image10,
+    title: "Ecommerce site",
+    desc: "Blogify is a full-stack blogging platform built with Node.js, and Express, featuring user authentication, CRUD operations, and a clean, responsive UI. Deployed on Render, it offers a seamless experience for users to create, read, update, and delete blog posts. This project demonstrates proficiency in backend development, and responsive frontend design, showcasing the ability to build scalable and user-friendly web applications.",
+    demo: "https://bella-store-1b93e73638e2.herokuapp.com/",
+    github: "https://github.com/iyeme-dev/bella_stores",
+  },
+
   // {
   //   id: 9,
   //   category: "frontend",
