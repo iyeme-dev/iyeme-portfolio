@@ -6,9 +6,9 @@ import Image5 from "../../assets/project5.jpg";
 import Image6 from "../../assets/project6.jpg";
 import Image7 from "../../assets/project7.jpg";
 import Image8 from "../../assets/project8.jpg";
-import Image9 from "../../assets/project9.jpg";
-import Image10 from "../../assets/project10.jpg";
-import Image11 from "../../assets/project11.jpg";
+import Image9 from "../../assets/ecomm.jpg";
+import Image10 from "../../assets/recipe-blog.jpg";
+
 
 const data = [
   {
@@ -85,14 +85,23 @@ const data = [
   },
   {
     id: 9,
-    category: "Python",
-    image: Image10,
+    category: ["Python", "Django"],
+    image: Image9,
     title: "Ecommerce site",
-    desc: "Blogify is a full-stack blogging platform built with Node.js, and Express, featuring user authentication, CRUD operations, and a clean, responsive UI. Deployed on Render, it offers a seamless experience for users to create, read, update, and delete blog posts. This project demonstrates proficiency in backend development, and responsive frontend design, showcasing the ability to build scalable and user-friendly web applications.",
+    desc: "Bella Stores is a full-stack Django (Python) e-commerce jewellery shop featuring category-based browsing, detailed product pages, a fully functional shopping cart, and secure Stripe checkout for payments. I built a responsive, mobile-friendly UI with Bootstrap, implemented user account features (sign up/sign in and order management), and deployed the app as a live production site—demonstrating end-to-end skills across backend development, frontend styling, third-party API integration, and deployment.",
     demo: "https://bella-store-1b93e73638e2.herokuapp.com/",
     github: "https://github.com/iyeme-dev/bella_stores",
   },
-
+   {
+    id: 10,
+    category: ["Python", "Django"],
+    image: Image10,
+    title: "Recipe Sharing Blog",
+    desc: "Bella Stores is a full-stack Django (Python) e-commerce jewellery shop featuring category-based browsing, detailed product pages, a fully functional shopping cart, and secure Stripe checkout for payments. I built a responsive, mobile-friendly UI with Bootstrap, implemented user account features (sign up/sign in and order management), and deployed the app as a live production site—demonstrating end-to-end skills across backend development, frontend styling, third-party API integration, and deployment.",
+    demo: "https://our-recipe-app-368893a37080.herokuapp.com/",
+    github: "https://github.com/iyeme-dev/recipe-blog",
+  },
+  
   // {
   //   id: 9,
   //   category: "frontend",
