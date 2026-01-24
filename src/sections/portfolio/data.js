@@ -85,7 +85,7 @@ const data = [
   },
   {
     id: 8,
-    category: "Django",
+    category: "Node.js",
     image: Image10,
     title: "Ecommerce site",
     desc: "Blogify is a full-stack blogging platform built with Node.js, and Express, featuring user authentication, CRUD operations, and a clean, responsive UI. Deployed on Render, it offers a seamless experience for users to create, read, update, and delete blog posts. This project demonstrates proficiency in backend development, and responsive frontend design, showcasing the ability to build scalable and user-friendly web applications.",
