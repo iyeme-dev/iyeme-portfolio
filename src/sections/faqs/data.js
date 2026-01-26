@@ -2,7 +2,7 @@ const data = [
     {
       id: 1,
       question: "Code Institute, Ireland. UK",
-      answer: "Full Stack Software Developer, March 2025 - Ongoing"
+      answer: "Full Stack Software Developer, March 2025 - January 2026"
     },
     {
       id: 2,

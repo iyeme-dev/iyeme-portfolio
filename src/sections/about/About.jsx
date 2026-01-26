@@ -28,9 +28,12 @@ const About = () => {
           <p>
             Motivated Web Developer with 2+ years of hands-on experience
             building responsive, user-friendly websites and email templates.
-            Skilled in HTML, CSS, JavaScript, and Bootstrap, with
-            growing knowledge of modern frameworks (React, Express.js) and
-            backend technologies.
+            Skilled in HTML, CSS, JavaScript/TypeScript, and Python, with
+            growing knowledge of modern frameworks (React, Node.js) and
+            backend technologies. Passionate about writing clean, accessible
+            code and eager to continue developing full-stack skills. Strong team
+            collaborator with a track record of working with designers and
+            developers to deliver digital solutions that meet client needs
           </p>
           <p>
             Passionate about writing clean, accessible code and eager to

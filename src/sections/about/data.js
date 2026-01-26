@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const data = [
     {id: 1, icon: <FaAward/>, title: '2 years experience building responsive websites'},
-    {id: 2, icon: <TbBooks/>, title: 'Skilled in HTML, CSS, JavaScript, Bootstrap, and React'},
+    {id: 2, icon: <TbBooks/>, title: 'Skilled in HTML, CSS, JavaScript,Typescript, Python:Django and React'},
     {id: 3, icon: <FaGithub/>, title: 'Familiar with Git/GitHub'}
     ]
 
