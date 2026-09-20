@@ -16,21 +16,28 @@ const Header = () => {
         <div className="header__profile" data-aos="fade-in">
           <img src={HeaderImage} alt="Iyeme Salubi" />
         </div>
+
         <h3 data-aos="fade-up">Iyeme Salubi</h3>
         <h1 data-aos="fade-up">Data Engineer</h1>
+
         <p data-aos="fade-up">
-          I build reliable data pipelines and cloud data solutions using Microsoft Fabric,
-          Azure, Python, PySpark and SQL — transforming raw data into trusted,
-          analytics-ready datasets for reporting and decision-making.
+          I design and build end-to-end data solutions that move raw data from source
+          systems into reliable, analytics-ready datasets. My work covers ETL/ELT,
+          cloud data platforms, Lakehouse architecture, batch and real-time processing,
+          orchestration, data quality and reporting using technologies including
+          Microsoft Fabric, Azure, Python, PySpark, SQL, Airflow, Kafka, Snowflake,
+          dbt and Google Cloud.
         </p>
+
         <div className="header__cta" data-aos="fade-up">
-          <a href="#portfolio" className="btn primary">
-            View Data Projects
+          <a href="#portfolio" className="btn primary header__project-btn">
+            View Projects
           </a>
-          <a href="#contact" className="btn light">
+          <a href="#contact" className="btn light header__contact-btn">
             Contact Me
           </a>
         </div>
+
         <div className="header__socials">
           {data.map((item) => (
             <a
