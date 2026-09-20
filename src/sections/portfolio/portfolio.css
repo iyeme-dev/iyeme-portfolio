@@ -8,10 +8,23 @@
 .btn.cat__btn {
     text-transform: capitalize;
     transition: var(--transition);
+    background: var(--color-light);
+    color: var(--color-black);
+    border: 2px solid var(--color-light);
 }
 
 .btn.cat__btn:hover {
-    transform: translateY(0);
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    transform: translateY(-0.2rem);
+}
+
+.btn.cat__btn.active,
+.btn.cat__btn:focus {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
 }
 
 .portfolio__projects {
