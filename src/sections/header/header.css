@@ -40,6 +40,19 @@ header {
     gap: 1.2rem;
 }
 
+.header__cta .header__contact-btn {
+    background: var(--color-light);
+    color: var(--color-black);
+    border: 2px solid transparent;
+}
+
+.header__cta .header__contact-btn:hover {
+    background: var(--color-light);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    transform: translateY(-0.35rem);
+}
+
 .header__project-btn {
     background: var(--color-primary);
     color: white;
@@ -60,9 +73,9 @@ header {
 }
 
 .header__contact-btn:hover {
-    background: var(--color-primary);
-    color: white;
-    border-color: var(--color-primary);
+    background: var(--color-light);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
     transform: translateY(-0.35rem);
 }
 

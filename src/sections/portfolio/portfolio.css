@@ -5,23 +5,22 @@
     flex-wrap: wrap;
 }
 
-.btn.cat__btn {
+button.btn.cat__btn {
     text-transform: capitalize;
     transition: var(--transition);
-    background: rgb(240, 239, 240);
+    background: #f0eff0;
     color: var(--color-black);
     border: 2px solid transparent;
 }
 
-.btn.cat__btn:hover {
-    background: rgb(240, 239, 240);
+button.btn.cat__btn:hover {
+    background: #f0eff0;
     color: var(--color-primary);
     border-color: var(--color-primary);
     transform: translateY(-0.2rem);
 }
 
-.btn.cat__btn.active,
-.btn.cat__btn:focus {
+button.btn.cat__btn.cat__btn--active {
     background: var(--color-primary);
     color: white;
     border-color: var(--color-primary);
