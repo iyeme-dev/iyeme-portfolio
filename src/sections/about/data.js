@@ -1,14 +1,9 @@
-import {FaAward} from 'react-icons/fa'
-import {TbBooks} from 'react-icons/tb'
-import { FaGithub } from 'react-icons/fa';
-
+import { FaDatabase, FaCloud, FaCodeBranch } from 'react-icons/fa'
 
 const data = [
-    {id: 1, icon: <FaAward/>, title: '2 years experience building responsive websites'},
-    {id: 2, icon: <TbBooks/>, title: 'Skilled in HTML, CSS, JavaScript,Typescript, Python:Django and React'},
-    {id: 3, icon: <FaGithub/>, title: 'Familiar with Git/GitHub'}
-    ]
+    {id: 1, icon: <FaDatabase/>, title: 'Data Engineering', desc: 'ETL/ELT, SQL, PySpark & data modelling'},
+    {id: 2, icon: <FaCloud/>, title: 'Cloud Platforms', desc: 'Microsoft Fabric, Azure, GCP & Snowflake'},
+    {id: 3, icon: <FaCodeBranch/>, title: 'Pipeline Automation', desc: 'Airflow, Kafka, dbt, Terraform & Git'}
+]
 
-
-
-    export default data;
+export default data;
