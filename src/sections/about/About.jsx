@@ -14,8 +14,10 @@ const About = () => {
             <img src={AboutImage} alt="Iyeme Salubi" />
           </div>
         </div>
+
         <div className="about__right">
           <h2>About Me</h2>
+
           <div className="about__cards">
             {data.map((item) => (
               <Card key={item.id} className="about__card">
@@ -25,18 +27,30 @@ const About = () => {
               </Card>
             ))}
           </div>
+
           <p>
             I am a Data Engineer with a software development background and hands-on
-            experience building batch, streaming and cloud-native data solutions.
-            My projects span Microsoft Fabric and Azure, Google Cloud, Kafka and Spark,
-            Airflow, Snowflake and dbt.
+            experience building end-to-end batch, streaming and cloud-native data
+            solutions. I enjoy solving the challenge of how raw data moves from source
+            systems through ingestion, transformation and validation into trusted
+            datasets that can be used for reporting and analytics.
           </p>
+
           <p>
-            I focus on ETL/ELT pipelines, data cleaning and transformation, data quality,
-            automation, Lakehouse architecture and analytics-ready data models. I enjoy
-            turning fragmented raw data into reliable datasets that support reporting
-            and business decisions.
+            My projects span Microsoft Fabric and Azure Lakehouse solutions, Google
+            Cloud pipelines, Kafka and Spark real-time streaming, Airflow orchestration,
+            Snowflake and dbt transformation workflows, PostgreSQL data stores and
+            infrastructure automation with Terraform.
           </p>
+
+          <p>
+            I have worked with Bronze, Silver and Gold data architectures, ETL/ELT
+            workflows, API ingestion, data-quality checks, cloud storage, orchestration
+            and business intelligence reporting. My software development experience
+            also gives me a strong foundation in Python, SQL, relational databases,
+            APIs, Git, testing and collaborative development.
+          </p>
+
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
           </a>

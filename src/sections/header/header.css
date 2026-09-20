@@ -1,10 +1,11 @@
 header {
     margin-top: 5rem;
-    height: calc(100vh - 5rem);
+    min-height: calc(100vh - 5rem);
     display: grid;
     place-items: center;
     background: var(--color-white);
     transition: var(--transition);
+    padding: 4rem 0;
 }
 
 .header__container {
@@ -22,16 +23,60 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.header__container h1 {
+    margin-top: 0.35rem;
+}
+
 .header__container p {
-    width: 35rem;
+    width: min(47rem, 100%);
     text-align: center;
-    margin: 0.6rem 0 2rem;
+    margin: 1rem 0 2rem;
+    line-height: 1.8;
 }
 
 .header__cta {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+}
+
+.header__cta .header__contact-btn {
+    background: var(--color-light);
+    color: var(--color-black);
+    border: 2px solid transparent;
+}
+
+.header__cta .header__contact-btn:hover {
+    background: var(--color-light);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    transform: translateY(-0.35rem);
+}
+
+.header__project-btn {
+    background: var(--color-primary);
+    color: white;
+    border: 2px solid var(--color-primary);
+}
+
+.header__project-btn:hover {
+    background: var(--color-light);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: translateY(-0.35rem);
+}
+
+.header__contact-btn {
+    background: var(--color-light);
+    color: var(--color-black);
+    border: 2px solid var(--color-light);
+}
+
+.header__contact-btn:hover {
+    background: var(--color-light);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    transform: translateY(-0.35rem);
 }
 
 .header__socials {
@@ -59,17 +104,14 @@ header {
     transform: translateX(-0.5rem);
 }
 
-
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
-        height: 100vh;
+        min-height: 100vh;
+        padding: 5rem 0;
     }
 }
 
-
-/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
     .header__profile {
         width: 14rem;
@@ -80,10 +122,13 @@ header {
 
     .header__container p {
         width: 100%;
+        line-height: 1.7;
     }
 
     .header__cta {
         gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .header__socials {

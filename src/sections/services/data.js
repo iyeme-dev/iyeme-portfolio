@@ -4,15 +4,15 @@ const data = [
   {
     id: 1,
     icon: <FaDatabase />,
-    title: "Data & Automation Developer — IJAY LIMITED",
-    period: "Dec 2022 – Jul 2025",
+    title: "Data Engineer — AMDARI",
+    period: "March 2026 – Till Date",
     desc: "Developed data workflows for customer, sales and operational data using Python and SQL. Built reusable ETL-style processes, automated reporting, applied validation and data-quality checks, and used Git/GitHub for version control and documentation.",
   },
   {
     id: 2,
     icon: <FaCode />,
-    title: "Software Developer — Sterlyn IT",
-    period: "Jan 2022 – Mar 2025",
+    title: "Software Engineer — Sterlyn IT",
+    period: "Dec 2022 – Jan 2026",
     desc: "Developed applications with Python, Django, SQL and relational databases. Built data-driven features, integrated APIs, used Git/GitHub, and performed testing, debugging and technical documentation.",
   },
   {
