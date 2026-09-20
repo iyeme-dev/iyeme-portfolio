@@ -8,13 +8,13 @@
 .btn.cat__btn {
     text-transform: capitalize;
     transition: var(--transition);
-    background: var(--color-light);
+    background: color-mix(in srgb, var(--color-light) 75%, var(--color-white) 25%);
     color: var(--color-black);
-    border: 2px solid var(--color-primary);
+    border: 2px solid transparent;
 }
 
 .btn.cat__btn:hover {
-    background: var(--color-light);
+    background: color-mix(in srgb, var(--color-light) 75%, var(--color-white) 25%);
     color: var(--color-primary);
     border-color: var(--color-primary);
     transform: translateY(-0.2rem);
