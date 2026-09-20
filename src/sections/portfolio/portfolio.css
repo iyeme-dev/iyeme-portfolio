@@ -19,11 +19,23 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
-    align-items: start;
+    align-items: stretch;
 }
 
+/* Give each project its own soft panel, like the cards in the previous portfolio */
 .card.portfolio__project {
     animation: animateProject 800ms ease-in forwards;
+    background: var(--color-light);
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card.portfolio__project:hover {
+    background: var(--color-light);
+    border-color: var(--color-white);
+    transform: translateY(-0.5rem);
 }
 
 @keyframes animateProject {
@@ -40,7 +52,7 @@
     height: fit-content;
     min-height: 7rem;
     max-height: 15rem;
-    background: var(--color-light);
+    background: var(--color-white);
     border-radius: var(--border-radius-2);
     margin-bottom: 1.5rem;
     overflow: hidden;
@@ -50,33 +62,41 @@
     margin: 0.5rem 0 2rem;
 }
 
+/* Keep buttons aligned neatly at the bottom of each project card */
 .portfolio__project-cta {
     display: flex;
     gap: 1rem;
+    margin-top: auto;
+    flex-wrap: wrap;
 }
 
+/* Previous-portfolio style: soft light secondary button */
 .portfolio__project-cta .btn.sm {
+    background: var(--color-white);
+    color: var(--color-black);
+    border: 2px solid var(--color-white);
     transition: var(--transition);
 }
 
-.portfolio__project:hover .btn.sm {
-    border-color: var(--color-white);
-}
-
-.portfolio__project:hover .btn.sm.primary {
+.portfolio__project-cta .btn.sm:hover {
     background: transparent;
     color: var(--color-primary);
     border-color: var(--color-primary);
-}
-
-.portfolio__project-cta .btn.sm:hover {
     transform: translateY(-0.5rem);
 }
 
+/* Primary GitHub button keeps the portfolio's accent colour */
+.portfolio__project-cta .btn.sm.primary {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
 .portfolio__project-cta .btn.sm.primary:hover {
-    background: transparent;
+    background: var(--color-white);
     color: var(--color-primary);
     border-color: var(--color-primary);
+    transform: translateY(-0.5rem);
 }
 
 @media screen and (max-width: 1024px) {
