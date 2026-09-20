@@ -1,32 +1,26 @@
-import { SiAdobexd } from "react-icons/si";
-import { RiReactjsLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiFillAppstore } from "react-icons/ai";
+import { FaDatabase, FaCode, FaUserMd } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    icon: <SiAdobexd />,
-    title: "Front-End Development",
-    desc: "Creating responsive, user-friendly websites using HTML, CSS, JavaScript, and frameworks like Bootstrap and React. I focus on delivering clean, accessible code that ensures a seamless user experience across devices and browsers.",
+    icon: <FaDatabase />,
+    title: "Data & Automation Developer — IJAY LIMITED",
+    period: "Dec 2022 – Jul 2025",
+    desc: "Developed data workflows for customer, sales and operational data using Python and SQL. Built reusable ETL-style processes, automated reporting, applied validation and data-quality checks, and used Git/GitHub for version control and documentation.",
   },
   {
     id: 2,
-    icon: <RiReactjsLine />,
-    title: "Back-End Support",
-    desc: "Assisting in building and maintaining server-side functionality using Node.js. Eager to expand my backend knowledge while supporting senior developers to ensure reliable, efficient web applications.",
+    icon: <FaCode />,
+    title: "Software Developer — Sterlyn IT",
+    period: "Jan 2022 – Mar 2025",
+    desc: "Developed applications with Python, Django, SQL and relational databases. Built data-driven features, integrated APIs, used Git/GitHub, and performed testing, debugging and technical documentation.",
   },
   {
     id: 3,
-    icon: <FaServer />,
-    title: "Debugging & Troubleshooting",
-    desc: "Proficient in identifying, testing, and fixing bugs to optimize performance. I apply strong problem-solving skills and attention to detail to keep websites functional, fast, and secure.",
-  },
-  {
-    id: 4,
-    icon: <AiFillAppstore />,
-    title: "Collaboration & Remote Work",
-    desc: "Experienced in working with designers and developers to bring projects from concept to launch. Skilled with Git/GitHub for version control and well-adapted to remote teamwork, meeting deadlines in fast-paced environments.",
+    icon: <FaUserMd />,
+    title: "Senior CT/MRI Radiographer — Alliance Medical",
+    period: "Dec 2013 – Mar 2021",
+    desc: "Performed CT and MRI examinations, managed scanner-site setup projects, completed scanner QA testing, mentored new graduates and progressed into a senior leadership role.",
   },
 ];
 
