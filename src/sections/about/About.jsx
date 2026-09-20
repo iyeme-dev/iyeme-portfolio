@@ -11,7 +11,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__left">
           <div className="about__portrait">
-            <img src={AboutImage} alt="About Image" />
+            <img src={AboutImage} alt="Iyeme Salubi" />
           </div>
         </div>
         <div className="about__right">
@@ -21,25 +21,21 @@ const About = () => {
               <Card key={item.id} className="about__card">
                 <span className="about__card-icon">{item.icon}</span>
                 <h5>{item.title}</h5>
-                <small>{item.desc}</small>
+                {item.desc && <small>{item.desc}</small>}
               </Card>
             ))}
           </div>
           <p>
-            Motivated Web Developer with 2+ years of hands-on experience
-            building responsive, user-friendly websites and email templates.
-            Skilled in HTML, CSS, JavaScript/TypeScript, and Python, with
-            growing knowledge of modern frameworks (React, Node.js) and
-            backend technologies. Passionate about writing clean, accessible
-            code and eager to continue developing full-stack skills. Strong team
-            collaborator with a track record of working with designers and
-            developers to deliver digital solutions that meet client needs
+            I am a Data Engineer with a software development background and hands-on
+            experience building batch, streaming and cloud-native data solutions.
+            My projects span Microsoft Fabric and Azure, Google Cloud, Kafka and Spark,
+            Airflow, Snowflake and dbt.
           </p>
           <p>
-            Passionate about writing clean, accessible code and eager to
-            continue developing full-stack skills. Strong team collaborator with
-            a track record of working with designers and developers to deliver
-            digital solutions that meet client needs. Check out my resume below!
+            I focus on ETL/ELT pipelines, data cleaning and transformation, data quality,
+            automation, Lakehouse architecture and analytics-ready data models. I enjoy
+            turning fragmented raw data into reliable datasets that support reporting
+            and business decisions.
           </p>
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
