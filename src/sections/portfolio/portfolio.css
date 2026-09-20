@@ -8,13 +8,13 @@
 .btn.cat__btn {
     text-transform: capitalize;
     transition: var(--transition);
-    background: hsl(var(--primary-hue), 18%, 94%);
+    background: rgb(240, 239, 240);
     color: var(--color-black);
     border: 2px solid transparent;
 }
 
 .btn.cat__btn:hover {
-    background: hsl(var(--primary-hue), 18%, 94%);
+    background: rgb(240, 239, 240);
     color: var(--color-primary);
     border-color: var(--color-primary);
     transform: translateY(-0.2rem);
