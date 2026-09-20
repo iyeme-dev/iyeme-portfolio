@@ -14,22 +14,21 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portait" />
+          <img src={HeaderImage} alt="Iyeme Salubi" />
         </div>
         <h3 data-aos="fade-up">Iyeme Salubi</h3>
+        <h1 data-aos="fade-up">Data Engineer</h1>
         <p data-aos="fade-up">
-          I am a motivated Web Developer with a passion for creating
-          clean, responsive, and user-friendly websites. Currently expanding my
-          skills in full-stack development, I’m eager to grow my backend
-          knowledge while contributing to collaborative, remote projects that
-          deliver real value to clients.
+          I build reliable data pipelines and cloud data solutions using Microsoft Fabric,
+          Azure, Python, PySpark and SQL — transforming raw data into trusted,
+          analytics-ready datasets for reporting and decision-making.
         </p>
         <div className="header__cta" data-aos="fade-up">
-          <a href="#contact" className="btn primary">
-            Contact me
+          <a href="#portfolio" className="btn primary">
+            View Data Projects
           </a>
-          <a href="#portfolio" className="btn light">
-            My Work
+          <a href="#contact" className="btn light">
+            Contact Me
           </a>
         </div>
         <div className="header__socials">
