@@ -10,7 +10,7 @@
     transition: var(--transition);
     background: var(--color-light);
     color: var(--color-black);
-    border: 2px solid var(--color-light);
+    border: 2px solid var(--color-primary);
 }
 
 .btn.cat__btn:hover {
