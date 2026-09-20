@@ -2,10 +2,10 @@ const data = [
   {
     id: 1,
     category: ["Microsoft Fabric", "Azure", "PySpark"],
-    image: "https://raw.githubusercontent.com/iyeme-dev/Microsoft-Fabric-Ecommerce/main/assets/microsoft-fabric-architecture.gif",
+    image: "https://raw.githubusercontent.com/iyeme-dev/Microsoft-Fabric-Ecommerce/main/assets/mf-architecture.gif",
     title: "Microsoft Fabric E-commerce Customer 360",
     desc: "End-to-end Customer 360 data platform using Azure Storage, Microsoft Fabric Lakehouse, metadata-driven ingestion, Bronze/Silver/Gold layers, PySpark transformations, validation and Power BI semantic modelling.",
-    architecture: "https://raw.githubusercontent.com/iyeme-dev/Microsoft-Fabric-Ecommerce/main/assets/microsoft-fabric-architecture.gif",
+    architecture: "https://raw.githubusercontent.com/iyeme-dev/Microsoft-Fabric-Ecommerce/main/assets/mf-architecture.gif",
     github: "https://github.com/iyeme-dev/Microsoft-Fabric-Ecommerce",
   },
   {
