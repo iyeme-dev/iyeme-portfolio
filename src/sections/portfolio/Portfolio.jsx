@@ -7,7 +7,6 @@ import { useState } from 'react'
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
 
-  // Build categories list (supports string OR array categories)
   const categories = data.flatMap(item =>
     Array.isArray(item.category) ? item.category : [item.category]
   );
@@ -31,9 +30,10 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Recent Projects</h2>
+      <h2>Featured Data Engineering Projects</h2>
       <p>
-        Check out some of my recent projects. Use the buttons to toggle the different categories.
+        Hands-on projects covering Lakehouse architecture, cloud-native batch pipelines,
+        real-time streaming, orchestration, transformation and analytics.
       </p>
       <div className="container portfolio__container">
         <ProjectsCategories
