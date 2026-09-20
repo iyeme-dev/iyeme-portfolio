@@ -4,21 +4,20 @@ import './services.css'
 
 const Services = () => {
   return (
-    <section id="services">
-      <h2>Experience</h2>
-      <p></p>
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <p>Experience combining data, software development, quality assurance and problem solving.</p>
       <div className="container services__container" data-aos="fade-up">
-        {
-          data.map(item => (
-            <Card key={item.id} className="service light">
-              <div className="service__icon">{item.icon}</div>
-              <div className="service__details">
-                <h4>{item.title}</h4>
-                  <p>{item.desc}</p>
-              </div>
-            </Card>
-          ))
-        }
+        {data.map(item => (
+          <Card key={item.id} className="service light">
+            <div className="service__icon">{item.icon}</div>
+            <div className="service__details">
+              <h4>{item.title}</h4>
+              <small className="service__period">{item.period}</small>
+              <p>{item.desc}</p>
+            </div>
+          </Card>
+        ))}
       </div>
     </section>
   )
