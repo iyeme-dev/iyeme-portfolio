@@ -29,9 +29,9 @@ const About = () => {
           </div>
 
           <p>
-            I am a Data Engineer with a software development background and hands-on
-            experience building end-to-end batch, streaming and cloud-native data
-            solutions. I enjoy solving the challenge of how raw data moves from source
+            I am a Data Engineering Consultant with a software development background
+            and hands-on experience building end-to-end batch, streaming and cloud-native
+            data solutions. I enjoy solving the challenge of how raw data moves from source
             systems through ingestion, transformation and validation into trusted
             datasets that can be used for reporting and analytics.
           </p>
