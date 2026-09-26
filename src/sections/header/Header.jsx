@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         <h3 data-aos="fade-up">Iyeme Salubi</h3>
-        <h1 data-aos="fade-up">Data Engineering Consultant</h1>
+        <h1 data-aos="fade-up">Data Engineer</h1>
 
         <p data-aos="fade-up">
           I design, build and support scalable batch and real-time data pipelines across
