@@ -29,26 +29,25 @@ const About = () => {
           </div>
 
           <p>
-            I am a Data Engineering Consultant with a software development background
-            and hands-on experience building end-to-end batch, streaming and cloud-native
-            data solutions. I enjoy solving the challenge of how raw data moves from source
-            systems through ingestion, transformation and validation into trusted
-            datasets that can be used for reporting and analytics.
+            I am a Data Engineering Consultant with hands-on experience designing,
+            building and supporting scalable batch and real-time data pipelines across
+            Microsoft Fabric, Azure and Google Cloud. I work with Python, SQL, PySpark,
+            ETL/ELT, data modelling, orchestration and data-quality controls to produce
+            reliable analytical datasets and reporting layers.
           </p>
 
           <p>
-            My projects span Microsoft Fabric and Azure Lakehouse solutions, Google
-            Cloud pipelines, Kafka and Spark real-time streaming, Airflow orchestration,
-            Snowflake and dbt transformation workflows, PostgreSQL data stores and
-            infrastructure automation with Terraform.
+            My experience includes developing Bronze, Silver and Gold Lakehouse
+            architectures, automating ingestion and transformation workflows, and
+            troubleshooting pipeline and data-quality issues using Fabric Lakehouse,
+            Azure Data Factory, Airflow, Kafka, Spark, Snowflake, dbt and BigQuery.
           </p>
 
           <p>
-            I have worked with Bronze, Silver and Gold data architectures, ETL/ELT
-            workflows, API ingestion, data-quality checks, cloud storage, orchestration
-            and business intelligence reporting. My software development experience
-            also gives me a strong foundation in Python, SQL, relational databases,
-            APIs, Git, testing and collaborative development.
+            I also bring a strong software-engineering foundation in Git/GitHub, APIs,
+            CI/CD, testing, technical documentation and Infrastructure as Code with
+            Terraform, with experience translating business requirements into
+            maintainable, production-ready data solutions.
           </p>
 
           <a href={CV} download className="btn primary">
