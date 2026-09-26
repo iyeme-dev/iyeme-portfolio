@@ -21,12 +21,11 @@ const Header = () => {
         <h1 data-aos="fade-up">Data Engineering Consultant</h1>
 
         <p data-aos="fade-up">
-          I design and build end-to-end data solutions that move raw data from source
-          systems into reliable, analytics-ready datasets. My work covers ETL/ELT,
-          cloud data platforms, Lakehouse architecture, batch and real-time processing,
-          orchestration, data quality and reporting using technologies including
-          Microsoft Fabric, Azure, Python, PySpark, SQL, Airflow, Kafka, Snowflake,
-          dbt and Google Cloud.
+          I design, build and support scalable batch and real-time data pipelines across
+          Microsoft Fabric, Azure and Google Cloud. My work covers Python, SQL, PySpark,
+          ETL/ELT, data modelling, orchestration, data quality and cloud data platforms,
+          including Fabric Lakehouse, Azure Data Factory, Airflow, Kafka, Spark,
+          Snowflake, dbt and BigQuery.
         </p>
 
         <div className="header__cta" data-aos="fade-up">
