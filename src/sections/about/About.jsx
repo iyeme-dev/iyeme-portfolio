@@ -29,7 +29,7 @@ const About = () => {
           </div>
 
           <p>
-            I am a Data Engineering Consultant with hands-on experience designing,
+            I am a Data Engineer with hands-on experience designing,
             building and supporting scalable batch and real-time data pipelines across
             Microsoft Fabric, Azure and Google Cloud. I work with Python, SQL, PySpark,
             ETL/ELT, data modelling, orchestration and data-quality controls to produce
