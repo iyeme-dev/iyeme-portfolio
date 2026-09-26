@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         <h3 data-aos="fade-up">Iyeme Salubi</h3>
-        <h1 data-aos="fade-up">Data Engineer</h1>
+        <h1 data-aos="fade-up">Data Engineering Consultant</h1>
 
         <p data-aos="fade-up">
           I design and build end-to-end data solutions that move raw data from source
